@@ -84,14 +84,6 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
-        <resources>
-            <resource>
-                <!--开启过滤，用指定的参数替换directory下的文件中的参数-->
-                <!-- 使用下面设置才能正常在application.yml中使用@xxx@这类变量参数 -->
-                <directory>src/main/resources</directory>
-                <filtering>true</filtering>
-            </resource>
-        </resources>
     </build>
 
 </project>
